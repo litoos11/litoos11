@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  width: 100vw;
+  background: black;
+}
+
+h1{
+  color: #FFCC12;
+}
+
+h1.titulo{
+  transition:transform 1s ease-out;
+}
+
+h1.titulo:hover{
+  transform: scale(1.1);
+}
+
+.arrow{
+  font-size: 4rem;
+  transition:transform 1s ease-out;
+}
+
+.arrow:hover{
+  transform: scale(1.5);
+}
+
+.arrow>a{
+  color:  #FFCC12;
+}
+
+.center{
+  margin: 16vh auto;
+  text-align: center;
+}
+
