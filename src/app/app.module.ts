@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 import { Litoos11Component } from './components/litoos11.component';
+import { OpcionesComponent } from './components/opciones.component';
 import { DescripcionComponent } from './components/descripcion.component';
 import { routing, appRoutingProviders } from './app.routing';
 
@@ -13,6 +14,7 @@ import { routing, appRoutingProviders } from './app.routing';
   declarations: [
     AppComponent,
     Litoos11Component,
+    OpcionesComponent,
     DescripcionComponent
   ],
   imports: [
