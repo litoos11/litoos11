@@ -29,3 +29,15 @@
 .container-fluid .row{
   padding: 1rem;
 }
+
+/*//PHONE*/
+@media only screen and (max-width : 768px) {
+
+  .submenu h1:not(.arrow){
+    font-size: 1rem;
+    /*background-color: blue;*/
+  }
+
+
+}
+
