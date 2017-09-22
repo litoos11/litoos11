@@ -14,7 +14,7 @@ export class OpcionesComponent implements OnInit{
     private _rouete: ActivatedRoute,
     private _router: Router
   ){
-    this.titulo = 'Menú';
+    this.titulo = 'Descubreme';
   }
 
   ngOnInit(){

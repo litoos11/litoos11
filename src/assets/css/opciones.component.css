@@ -1,9 +1,8 @@
 .submenu{
   margin-right: 0.3rem;
   margin-bottom: 0.3rem;
-  border: solid 0.5rem #ccc;
+  border: solid 0.5rem rgba(46, 46, 46, 0.2);
   border-radius: 2px;
-  background-color: gray;
   height: 25vh;
 }
 
@@ -17,7 +16,6 @@
 }
 
 .submenu h1.arrow{
-  /*font-size: 6rem;*/
   transition: transform 1s ease-out;
 }
 
@@ -30,13 +28,28 @@
   padding: 1rem;
 }
 
+/*//TABLET*/
+/*@media only screen and (min-width : 768px) and (max-width : 992px){
+ .submenu{
+    background-color: white;
+    height: 35vh;
+  }
+}*/
+
 /*//PHONE*/
 @media only screen and (max-width : 768px) {
 
   .submenu h1:not(.arrow){
     font-size: 1rem;
-    /*background-color: blue;*/
-  }
+  } 
+  
+  
+
+@media only screen and (max-height: 300px) {
+  .submenu{
+    height: 35vh;
+  } 
+}
 
 
 }
